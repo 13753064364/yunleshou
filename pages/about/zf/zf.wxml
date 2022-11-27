@@ -1,0 +1,16 @@
+<view wx:if="{{isHide}}">
+    <view wx:if="{{canIUse}}">
+        <view class='header'>
+            <image  src='../../../we7/resource/images/login.png'></image>
+        </view>
+        <view class='content'>
+            <text>请依次允许获得你的公开信息及手机号码</text>
+        </view>
+        <view class="" >
+            <button class="{{flag?'show':'hide'}}" type="primary" open-type="getUserInfo" lang="zh_CN"  bindgetuserinfo="bindGetUserInfo">{{AuthorizedLogin}}</button>
+        <button class="{{flag?'hide':'show'}}" type="primary" lang="zh_CN" open-type='getPhoneNumber'  bindgetphonenumber="getPhoneNumber">{{UserPhone}}</button>
+        </view>
+    </view>
+    <view wx:else>请升级微信版本</view>
+</view> 
+

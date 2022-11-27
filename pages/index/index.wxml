@@ -1,0 +1,197 @@
+
+
+<view style="background: #ebebed; width: 750rpx; height: 1736rpx; display: block; box-sizing: border-box; position: relative; left: -2rpx; top: -12rpx">
+
+ <!-- <view  class="cu-bar bg-white margin-top" style="position: relative;">
+  <view class="action">
+    
+  </view>
+</view> -->
+<!-- <swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff" style="width: 642rpx; height: 482rpx; display: block; box-sizing: border-box">
+  <swiper-item wx:for="{{swiperList}}" wx:key class="{{cardCur==index?'cur':''}}" style="width: 691rpx; height: 419rpx; display: block; box-sizing: border-box; left: -241rpx; top: -86rpx; position: absolute">
+    <view class="swiper-item" style="width: 731rpx; height: 372rpx; display: block; box-sizing: border-box">
+      <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+    </view>
+  </swiper-item>
+</swiper> -->
+
+
+
+ <!-- 轮播图区域 -->
+  <!-- 轮播图区域 -->
+  <swiper  style="position: relative; left: -1rpx; top: 9rpx; width: 750rpx; height: 531rpx; display: block; box-sizing: border-box" class="swiper-container" indicator-dots indicator-color="#fff" autoplay interval="1000" circular>
+    <!-- 轮播项 -->
+    <swiper-item style="position: absolute; left: 0rpx; top: 0rpx; width: 750rpx; height: 368rpx; display: block; box-sizing: border-box">
+      <view class="item" style="width: 752rpx; height: 461rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 0rpx">
+        <image src="https://s1.ax1x.com/2022/07/13/jRh6zQ.png" mode="aspectFill" style="position: relative; left: 0rpx; top: 0rpx; width: 100%; height: 381rpx; display: inline-block; box-sizing: border-box"></image>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="item" style="position: relative;">
+        <image src="https://www.hualigs.cn/image/62ac5a1ca8beb.jpg" mode="aspectFill" style="position: relative; left: 0rpx; top: 0rpx; height: 381rpx"></image>
+      </view>
+    </swiper-item>
+    <swiper-item style="width: 726rpx; height: 110rpx; display: block; box-sizing: content-box; left: 0rpx; top: 0rpx">
+      <view class="item" style="position: relative;">
+        <image src="https://s1.ax1x.com/2022/07/13/jRfO58.png"  mode="aspectFill" style="height: 381rpx"></image>
+      </view>
+    </swiper-item>
+  </swiper>
+
+
+
+<!-- 底部按钮 -->
+
+
+
+
+
+
+<!-- 农户 -->
+
+<view style="flex: none;position: relative; width: 683rpx; background-color: white; height: 302rpx; display: block; box-sizing: border-box; left: 8rpx; top: -132rpx; flex-direction: column; text-align: center; margin: 30rpx 30rpx; border: 2rpx solid #949494; border-radius: 20rpx; box-shadow: 0px -5px 0px 0px #E5E5E5,-5px 0px 0px 0px #E5E5E5,5px 0px 0px 0px #E5E5E5,0px 5px 0px 0px #E5E5E5;z-index: 15;">
+
+
+  
+
+  <image style="position: relative; width: 52rpx; height: 266rpx; display: inline-block; box-sizing: border-box; left: -21rpx; top: 20rpx"src="https://s1.ax1x.com/2022/07/11/jcp0yV.jpg"></image>
+
+  <navigator url="../nongming/nongming" style="position: relative; width: 349rpx; height: 227rpx; display: block; box-sizing: border-box; left: -4rpx; top: -212rpx">
+    <image src="https://s1.ax1x.com/2022/07/11/j6z6nU.jpg" style="width: 225rpx; height: 266rpx; display: inline-block; box-sizing: border-box; left: 2rpx; top: -40rpx; position: relative"></image>
+  </navigator>
+
+  <view style="position: relative; width: 385rpx; height: 350rpx; left: 344rpx; top: -520rpx; display: block; box-sizing: border-box">
+
+<navigator url="../qiye/qiye" style="position: relative; left: -8rpx; top: -191rpx">
+  <image src="https://s1.ax1x.com/2022/07/11/jcpWS1.png" style="width: 225rpx; height: 258rpx; display: inline-block; box-sizing: border-box; left: -30rpx; top: 240rpx; position: relative"></image>
+</navigator>
+</view>
+
+
+  
+</view>
+
+<!-- 企业 -->
+
+
+
+<view style="position: relative; width: 670rpx; height: 387rpx; left: 20rpx; top: -124rpx; display: block; box-sizing: border-box; background-color: white; border-radius: 20rpx; margin: 30rpx 30rpx; border: 2rpx solid #949494; box-shadow: 0px -5px 0px 0px #E5E5E5,-5px 0px 0px 0px #E5E5E5,5px 0px 0px 0px #E5E5E5,0px 5px 0px 0px #E5E5E5">
+
+<!-- jiaru -->
+  <image src="https://s1.ax1x.com/2022/07/11/j6zsXT.jpg" style="position: relative; width: 102rpx; height: 133rpx; display: inline-block; box-sizing: border-box; left: 206rpx; top: 202rpx" bindtap="tan"></image>
+  
+  <!-- diazhi -->
+  <image src="https://s1.ax1x.com/2022/07/11/j6zrcV.jpg" style="position: relative; left: 247rpx; top: 202rpx; width: 102rpx; height: 133rpx; display: inline-block; box-sizing: border-box" bindtap="gotoaddress"></image>
+  <!-- kefu -->
+  <image src="https://s1.ax1x.com/2022/07/11/j6zD10.jpg" style="position: relative; width: 102rpx; height: 133rpx; display: inline-block; box-sizing: border-box; left: 304rpx; top: 27rpx" bindtap="tan1"></image>
+  <!-- wenhua -->
+  <image src="https://s1.ax1x.com/2022/07/11/j6zg74.jpg" style="position: relative; left: -272rpx; top: 202rpx; width: 133rpx; height: 133rpx; display: inline-block; box-sizing: border-box" bindtap="gotoqiyewenhua"></image>
+  <!-- guizhe -->
+  <image src="https://s1.ax1x.com/2022/07/11/j6zRAJ.jpg" style="position: relative; left: 70rpx; top: 202rpx; width: 102rpx; height: 133rpx; display: inline-block; box-sizing: border-box" bindtap="gotogz"></image>
+  <!-- manyidu -->
+  <image src="https://s1.ax1x.com/2022/07/11/j6zWN9.jpg" style="position: relative; display: inline-block; box-sizing: border-box; left: -491rpx; top: 27rpx; width: 102rpx; height: 133rpx" bindtap="showModal"></image>
+
+  <!-- jiage -->
+  <image src="https://s1.ax1x.com/2022/07/11/jcptij.png" style="position: relative; left: 206rpx; top: -112rpx; width: 102rpx; height: 133rpx; display: inline-block; box-sizing: border-box" bindtap="gotojiage"></image>
+  <!-- aixing -->
+  <image src="https://s1.ax1x.com/2022/07/11/jcp4OK.png" style="position: relative; left: 247rpx; top: -112rpx; width: 102rpx; height: 133rpx; display: inline-block; box-sizing: border-box" bindtap="gotogongyi"></image>
+
+
+
+  <view class="commodity_screen" bindtap="hideModal" wx:if="{{showModalStatus}}" style="position: relative;">
+</view>
+<!--弹出框 -->
+<view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}" style="position: relative;">
+    <view  class="guan">
+        <view class="flex">
+            <view class="guanyu">
+                <image  show-menu-by-longpress="true"  class="guanyu_img"  src="../../image/dcb.png"/>
+                
+            </view>
+        </view>
+        <view class="center mag">长按图片【识别二维码】填写问卷</view>
+        <view class="flex mag"><view class="flex line solid"></view></view>
+        <view class="center fon mag">你还可以</view>
+        <view class="flex">
+            <view class="left line tex">
+                <view >1.打开微信，点击'添加朋友'</view>
+                <view >2.输入gjl18487047</view>
+                <view >3.添加客服好友</view>
+                <view >4.反馈意见给客服</view>
+            </view>
+        </view>
+    </view>
+ </view>
+</view>
+
+
+
+
+
+<view style="position: relative; background: #2c2f34; left: 40rpx; top: -982rpx; width: 678rpx; height: 144rpx; display: block; box-sizing: border-box; border-radius: 20px; z-index: 10">
+
+  <image style="position: relative; left: 52rpx; top: 9rpx; width: 74rpx; height: 76rpx; display: inline-block; box-sizing: border-box; border-radius: 25px" src="/pages/src/img/photo1.png"> </image>
+  
+  <text style="position: relative; left: 82rpx; top: -2rpx; color: #dcc289; font-weight: 600" >Lucky you~ 跟幸运打个招呼 </text>
+
+
+
+</view>
+
+
+<image style="position: relative; width: 666rpx; height: 222rpx; display: inline-block; box-sizing: border-box; left: 46rpx; top: 1rpx; border-radius: 70rpx" src="https://s1.ax1x.com/2022/07/08/jBhpon.png" bindtap="tan"/>
+
+
+<!-- <text></text> -->
+<!-- 推广 -->
+
+
+<!-- </view> -->
+
+<!-- 客服 -->
+
+
+<view class="releaseBtn" bind:tap="gotoRelease;" style="z-index: 100;">
+  <image style="width: 132rpx; height: 138rpx; display: inline-block; box-sizing: border-box; left: -530rpx; top: 10rpx; position: relative"  class="releaseIcon" src="https://s1.ax1x.com/2022/11/07/xv70OI.png" />
+</view>
+
+
+<button
+                open-type="contact"
+                class="grid-item1"
+               style="width: 110rpx; height: 412rpx; display: block; box-sizing: border-box; left: -321rpx; top: -452rpx; position: relative" >
+                <view class="grid-item-img">
+                  <custom-image module="order" mode="aspectFit" :src="item.imgUrl"></custom-image>
+                </view>
+                <view class="grid-item-title f11">{{ item.title }}</view>
+
+              </button>
+
+              <button
+                open-type="contact"
+                class="grid-item1"
+               style="width: 110rpx; height: 110rpx; display: block; box-sizing: border-box; left: -239rpx; top: -1282rpx; position: relative" >
+                <view class="grid-item-img">
+                  <custom-image module="order" mode="aspectFit" :src="item.imgUrl"></custom-image>
+                </view>
+                <view class="grid-item-title f11">{{ item.title }}</view>
+
+              </button>
+
+
+              <!-- mengdian -->
+              <view style="position: relative; left: 46rpx; top: -1010rpx; background: white; width: 678rpx; height: 222rpx; display: block; box-sizing: border-box; border-radius: 45rpx; z-index: 10" >
+                <text style="position: relative; font-weight: 900; left: 112rpx; top: -34rpx; font-size: large" bindtap="map">选择门店 ></text>
+
+                <text style="position: relative; font-weight: 400; left: -64rpx; top: 48rpx; font-size: medium">发现你的幸运回收门店</text>
+
+                <image src="https://s1.ax1x.com/2022/11/08/xvzmHH.png" style="position: relative; width: 127rpx; height: 124rpx; display: inline-block; box-sizing: border-box; left: 26rpx; top: 54rpx"></image> 
+
+              </view>
+              
+              
+</view>
+<!-- 功能模块 -->
+
+

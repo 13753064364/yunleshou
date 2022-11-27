@@ -1,0 +1,95 @@
+.banners{
+  width: 100%;
+  height: 300rpx;
+}
+
+.banners image{
+  height: 100%;
+  width: 100%;
+}
+
+page{
+  height: 100%;
+}
+.ui-flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ui-flex{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ui-flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-image: url('https://i.loli.net/2019/10/18/C9cPfSnrMUmqxz8.png');
+  background-size: 100%;
+}
+
+.header,.calendar{
+  width: 90%;
+  margin: 0 auto;
+}
+.header{
+  padding: 50rpx 70rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  box-sizing: border-box;
+}
+.header .count{
+  font-size: 50rpx;
+  margin-right: 4rpx;
+}
+.calendar{
+  background-color: #fff;
+  border-radius: 30rpx;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  font-size: 24rpx;
+}
+
+.label{
+  justify-content: center;
+  padding: 30rpx 0;
+}
+.triangle{
+  border-left: 20rpx solid transparent;
+  border-right: 20rpx solid transparent;
+  border-bottom: 30rpx solid #2681ff;
+}
+.label > .left,.right{
+  margin: 0 20rpx;
+}
+.label > .left{
+  transform: rotate(-90deg);
+}
+.label > .right{
+  transform: rotate(90deg);
+}
+
+/* 格子部分css */
+.calendar-days > view{
+  width: calc(100% / 7);
+  text-align: center;
+}
+.calendar-days > .day{   
+  padding: 30rpx 0;
+  color: #444;
+}
+.not-current-month{
+  color: #ccc !important;
+}
+.active-day{
+  background-color: #2681ff;
+  border-radius: 50%;
+  color: #fff !important;
+}
+
+

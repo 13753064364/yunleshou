@@ -1,0 +1,72 @@
+{
+  "pages":[
+
+    "pages/index/index",
+    "pages/nongming/nongming",
+    "pages/ys/ys",
+    "pages/qiyewenhua/qiyewenhua",
+    "pages/qiye/qiye",
+    "pages/anniu/guizhe",
+    "pages/anniu/jiage",
+    "pages/utils/util",
+    "pages/anniu/address",
+    "pages/anniu/gongyi",
+    "pages/anniu/kefu",
+    "pages/dingdan/dingdan",
+    "pages/about/log/log",
+    "pages/about/qianbao/qianbao",
+    "pages/about/test/list",
+    "pages/about/qiandao/qiandao",
+    "pages/about/test/filter",
+    "pages/about/home/home",
+    "pages/cs/cs",
+    "pages/ewm/ewm",
+    "pages/logs/logs",
+    "pages/map/map",
+    "pages/mp/mp"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+
+  "requiredprivateInfos": ["chooseLocation"],
+  "tabBar": {
+    "color": "#A9A9A9",
+    "selectedColor": "",
+    "backgroundColor": "#F5F5F5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/shouye.png",
+        "selectedIconPath": "image/shouyefill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/dingdan/dingdan",
+        "iconPath": "image/dingdan-2.png",
+        "selectedIconPath": "image/dingdan-3.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/mp/mp",
+        "iconPath": "image/8-2.png",
+        "selectedIconPath": "image/8.png",
+        "text": "门店"
+      },
+      {
+        "pagePath": "pages/about/home/home",
+        "iconPath": "image/31wode.png",
+        "selectedIconPath": "image/31wodexuanzhong.png",
+        "text": "我的"
+      }
+      
+    ]
+  },
+
+
+  "sitemapLocation": "sitemap.json"
+}

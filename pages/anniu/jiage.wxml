@@ -1,0 +1,29 @@
+<view style="position: relative; background-color: #eef7f9; width: 750rpx; height: 1454rpx; display: block; box-sizing: border-box; left: 0rpx; top: -4rpx" > 
+
+
+<view style="position: relative; width: 684rpx; height: 468rpx; display: block; box-sizing: border-box; left: 34rpx; top: 66rpx; background-color: white; border-radius: 35px">
+<text style="position: relative; left: 24rpx; top: 24rpx; font-size: x-large; font-weight: 900">为了您的方便</text>
+<text style="position: relative; left: 24rpx; top: 60rpx; font-size: x-large; font-weight: 900">
+小乐将为您估算您的回收价格</text>
+<image style="position: relative; left: 474rpx; top: 206rpx; width: 212rpx; height: 254rpx; display: inline-block; box-sizing: border-box;border-radius: 25px;" src="https://img2.baidu.com/it/u=3118952769,3657645713&fm=253&fmt=auto?w=249&h=291;border-radius15px"></image>
+</view>
+
+
+<form>
+
+<!-- <input model:value="{{zl}}" type="zl" bindinput="getZL"></input> -->
+<input  style="position: relative; width: 750rpx; height: 89rpx; display: block; box-sizing: border-box; left: 24rpx; top: 182rpx; font-weight: 500" type="zl" bindinput='getZL'  name="zl" class="content" placeholder="在此输入需要出售或者回收的重量" />
+
+
+<button class="grid-item1" style="position: relative; left: 24rpx; top: 281rpx; width: 266rpx; height: 124rpx; display: block; box-sizing: border-box; border-radius: 15px; font-size: large; font-weight: 600" bindtap="going">点我！！！</button>
+<view style="position: relative; left: 266rpx; top: 457rpx; width: 594rpx; height: 88rpx; display: block; box-sizing: border-box; font-size: large; font-weight: 900">主人，回收价格为：{{jg}} 元
+
+</view>
+
+<image src="https://img1.baidu.com/it/u=2386067069,873630896&fm=253&fmt=auto&app=138&f=JPEG?w=530&h=500" style="position: relative; width: 218rpx; height: 214rpx; display: inline-block; box-sizing: border-box; left: 24rpx; top: 214rpx; border-radius: 25px"></image>
+
+<image src="https://s1.ax1x.com/2022/11/09/xzBTYV.jpg" style="width: 240rpx; height: 262rpx; display: inline-block; box-sizing: border-box; left: 256rpx; top: 0rpx; position: relative; border-radius: 35px"></image>
+</form>
+</view>
+
+

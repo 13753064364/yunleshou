@@ -1,0 +1,29 @@
+<!--屏幕背景变暗的背景 -->
+helllllo
+<button bindtap="showModal"> 111</button>
+<view class="commodity_screen" bindtap="hideModal" wx:if="{{showModalStatus}}">
+
+<text>5555555</text>
+11</view>
+ <!--弹出框 -->
+ <view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}">
+    <view  class="guan">
+        <view class="flex">
+            <view class="guanyu">
+                <image  show-menu-by-longpress="true"  class="guanyu_img" />
+            </view>
+        </view>
+        <view class="center mag">长按图片【识别二维码】关注公众号</view>
+        <view class="flex mag"><view class="flex line solid"></view></view>
+        <view class="center fon mag">你还可以</view>
+        <view class="flex">
+            <view class="left line tex">
+                <view >1.打开微信，点击'添加朋友'</view>
+                <view >2.点击'公众号'</view>
+                <view >3.搜索公众号:99999999999</view>
+                <view >4.点击'关注'，完成</view>
+            </view>
+        </view>
+    </view>
+ </view>
+

@@ -1,0 +1,53 @@
+<view style="position: relative; width: 750rpx; height: 94rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+  <text style="position: relative; font-size: large; font-weight: 300; font-family: 'Courier New', Courier, monospace; color: yellowgreen; left: 44rpx; top: -22rpx" >
+附近门店
+</text>
+
+
+</view>
+
+<map style="position: relative; left: 18rpx; top: 0rpx; width: 714rpx; height: 500rpx; display: block; box-sizing: border-box;border-radius: 117px;" id="mapp" latitude="{{latitude}}" longitude="{{longitude}}" scale="16" 
+	 show-compass="true"show-scale="true" 	
+	 polygons="{{polygons}}">
+</map>
+
+
+<view style="position: relative; width: 714rpx; height: 94rpx; display: block; box-sizing: border-box; left: 18rpx; top: 0rpx; background-color: white">
+
+  <text style="position: relative; left: 300rpx; top: 22rpx; font-size: medium; font-weight: 500">地图  ^ </text>
+</view>
+
+<view style="position: relative; width: 714rpx; height: 302rpx; display: block; box-sizing: border-box; left: 18rpx; top: 96rpx; background-color: white">
+
+<text style="position: relative; font-size: medium; font-weight: 500; left: 59rpx; top: 27rpx">太原理工大学东区店</text>
+<text style="position: relative; font-size: smaller; font-weight: 500; left: -232rpx; top: 96rpx">山西省晋中市榆次区文华街太原理工大学东区</text>
+<image src="https://s1.ax1x.com/2022/11/09/xz0i4K.png" style="position: relative; left: -36rpx; top: -20rpx; width: 48rpx; height: 48rpx; display: inline-block; box-sizing: border-box"> </image>
+<image src="https://s1.ax1x.com/2022/11/09/xz0Ege.png" style="position: relative; left: -72rpx; top: 42rpx; width: 24rpx; height: 26rpx; display: inline-block; box-sizing: border-box"> </image>
+
+<image style="position: relative; width: 24rpx; height: 26rpx; display: inline-block; box-sizing: border-box; left: -96rpx; top: 140rpx"
+src="https://s1.ax1x.com/2022/11/09/xz0dU0.png"
+></image>
+
+<text  style="position: relative; font-size: smaller; color: gray; left: -73rpx; top: 136rpx">10:00-22:00</text>
+
+
+<view style="position: relative; width: 388rpx; height: 113rpx; display: block; box-sizing: border-box; left: 215rpx; top: 94rpx">
+
+<text style="position: relative; color: gray; font-size: smaller; left: 96rpx; top: -10rpx">
+营业中
+</text>
+</view>
+<view style="position: relative; background-color: green; width: 225rpx; height: 48rpx; display: block; box-sizing: border-box; left: 430rpx; top: -5rpx"
+>
+<image style="position: relative; width: 24rpx; height: 26rpx; display: inline-block; box-sizing: border-box; left: 24rpx; top: 10rpx"
+src="https://s1.ax1x.com/2022/11/09/xz0r2F.png"
+></image>
+<text style="position: relative; color: white; left: 24rpx; top: 4rpx"> 接受预定
+</text>
+</view>
+
+
+</view>
+<image style="position: relative; width: 24rpx; height: 26rpx; display: inline-block; box-sizing: border-box; left: -78rpx; top: 138rpx"
+src="https://s1.ax1x.com/2022/11/09/xz0dU0.png"
+></image>

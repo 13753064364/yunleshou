@@ -1,0 +1,15 @@
+/*使屏幕变暗 */
+.commodity_screen {width: 100%;height: 100%;position: fixed;top: 0;left: 0;background: #000;opacity: 0.8;overflow: hidden;z-index: 1000;color: #fff;}
+   /*对话框 */
+.commodity_attr_box {	width: 100%;overflow: hidden;position: fixed;bottom: 280rpx;left: 0;z-index: 2000;padding-top: 20rpx;display: flex;justify-content: center;color: #fff;}
+.guan{font-size: 16px;}
+.fon{font-size: 20px;}
+.line{line-height: 60rpx;}
+.guanyu{width: 400rpx;height: 400rpx;background: #fff;}
+.flex{width: 100%;display: flex;justify-content: center;}
+.center{width: 100%;text-align: center;}
+.left{width: 100%;text-align: left;}
+.solid{width: 100%;height: 1px;background-color: #666;}
+.mag{margin: 10px 0;}
+.tex{margin-left: 50rpx;}
+

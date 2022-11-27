@@ -1,0 +1,86 @@
+<scroll-view scroll-y class="scrollPage" style="background-color: white; height: 1400rpx; width: 750rpx; display: block; box-sizing: border-box; position: relative; left: -2rpx; top: 0rpx">
+  <view class="UCenter-bg" style="position: relative; left: 0rpx; top: -2rpx; background-image: url(https://img2.baidu.com/it/u=2935401578,3825923539&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=321); border-radius: 34px">
+    <image src="./../../../image/photo1.png" class="png" mode="widthFix" style="position: relative; left: -198rpx; top: 40rpx;border-radius: 125rpx;"></image>
+    <!-- <text class="text-df">退出</text> -->
+    <text style="position: relative; left: 137rpx; top: -122rpx; color: black; width: 400rpx; height: 62rpx; display: block; box-sizing: border-box; font-size: large; font-weight: 400">云乐收用户1848,您好！ </text>
+    <navigator class="text-df" url="../../about/zf/zf" style="position: relative; color: black; width: 124rpx; height: 62rpx; display: block; box-sizing: border-box; left: -1rpx; top: -100rpx;font-size: large;font-weight: 400;">退出</navigator>
+
+    
+
+
+
+
+
+
+
+ 
+  </view>
+  
+  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius"
+  
+  >
+    <view class="cu-item arrow" style="bacol" >
+      <navigator class="content" url="../../anniu/address" hover-class="none">
+        <text class="cuIcon-github text-grey"></text>
+        <text class="text-grey">我的地址薄</text>
+      </navigator>
+    </view>
+    <!-- <view class="cu-item arrow">
+      <navigator class="content" url="/pages/about/qianbao/qianbao" hover-class="none">
+        <image src="../../../image/logo.png" class="png" mode="aspectFit"></image>
+        <text class="text-grey">我的钱包</text>
+      </navigator>
+    </view> -->
+    <view class="cu-item arrow">
+      <navigator class="content" url="/pages/about/qiandao/qiandao" hover-class="none">
+        <text class="cuIcon-formfill text-green"></text>
+        <text class="text-grey">每日签到</text>
+      </navigator>
+    </view>
+    <view class="cu-item arrow">
+      <view class="content" bindtap="showModal">
+        <text class="cuIcon-appreciatefill text-red"></text>
+        <text class="text-grey">加盟热线</text>
+      </view>
+    </view>
+    <view class="cu-item arrow">
+      <button class="cu-btn content" open-type="feedback">
+        <text class="cuIcon-writefill text-cyan"></text>
+        <text class="text-grey">我的评价</text>
+      </button>
+    </view>
+  </view>
+
+  <image src="https://img2.baidu.com/it/u=1154669527,2869987647&fm=253&fmt=auto&app=138&f=JPEG?w=749&h=500" style="width: 750rpx; height: 260rpx; display: inline-block; box-sizing: border-box; left: 0rpx; top: -10rpx; position: relative"></image>
+
+ 
+</scroll-view>
+
+
+
+<view class="commodity_screen" bindtap="hideModal" wx:if="{{showModalStatus}}">
+
+
+</view>
+<!--弹出框 -->
+<view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}">
+    <view  class="guan">
+        <view class="flex">
+            <view class="guanyu">
+                <image  show-menu-by-longpress="true"  class="guanyu_img"  src="../../../image/my1.png"/>
+                
+            </view>
+        </view>
+        <view class="center mag">长按图片【识别二维码】添加好友</view>
+        <view class="flex mag"><view class="flex line solid"></view></view>
+        <view class="center fon mag">你还可以</view>
+        <view class="flex">
+            <view class="left line tex">
+                <view >1.打开微信，点击'添加朋友'</view>
+                <view >2.点击'公众号'</view>
+                <view >3.搜索公众号:云乐收</view>
+                <view >4.点击'关注'，完成</view>
+            </view>
+        </view>
+    </view>
+ </view>

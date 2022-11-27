@@ -1,0 +1,58 @@
+<swiper class="banners" indicator-dots autoplay  indicator-active-color="#d43c33" indicator-color="ivory">
+    <swiper-item wx:for="{{imgUrl}}" wx:key="bannerId">
+      <image mode="widthFix" src="{{item}}" />
+    </swiper-item>
+</swiper>
+<view style="position: relative; width: 652rpx; height: 232rpx; display: block; box-sizing: border-box; left: 0rpx; top: 22rpx; background-color: red; border-radius: 740px">
+
+<text style="position: relative; color: white; left: 239rpx; top: 47rpx">
+你好，有爱的你</text>
+<text style="position: relative; color: white; left: 239rpx; top: -32rpx">
+一起用爱点亮希望吧！</text>
+<image src="https://img1.baidu.com/it/u=1882036571,3809749106&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500" style="position: relative; width: 148rpx; height: 138rpx; display: inline-block; box-sizing: border-box; left: -234rpx; top: -26rpx; background-color: red; border-radius: 140px"></image>
+</view>
+
+
+<view style="position: relative; left: 22rpx; top: 68rpx; background-color: white; width: 706rpx; height: 260rpx; display: block; box-sizing: border-box">
+<text style="position: relative; font-size: x-large; color: gray; left: 26rpx; top: -82rpx">为爱打卡从我做起！</text>
+<image src="https://img2.baidu.com/it/u=1505593543,1108273977&fm=253&fmt=auto&app=138&f=JPEG?w=491&h=442" style="position: relative; width: 246rpx; height: 206rpx; display: inline-block; box-sizing: border-box; left: 26rpx; top: 30rpx"></image>
+</view>
+
+<view style="position: relative; left: 0rpx; top: 96rpx; width: 750rpx; height: 1120rpx; display: flex; box-sizing: border-box" class="container">
+    <view class="header ui-flex-between" style="position: relative; left: 2rpx; top: -148rpx">
+        <view>
+            <view><text class="count">{{ accumulate }}</text>天</view>
+            <view>累计打卡</view>
+        </view>
+        <view>
+            <view><text class="count">{{ continuous }}</text>天</view>
+            <view>连续打卡</view>
+        </view>
+    </view>
+    <!-- 日历卡片部分 S -->
+    <view class="calendar" style="position: relative; left: 2rpx; top: -148rpx; width: 674rpx; height: 662rpx; display: block; box-sizing: border-box"> 
+        <view class="label ui-flex" style="position: relative; left: -36rpx; top: -22rpx">
+            <view class="triangle left" data-type="up" bindtap="handleSwitchCalendar"></view>
+            <view>{{ date.year }}年{{ date.month }}月</view>
+            <view class="triangle right" data-type="next" bindtap="handleSwitchCalendar"></view>
+        </view>
+        <!-- 绘制周一到周天的格子：默认 42 个 -->
+        <view class="calendar-days ui-flex-wrap">
+            <view class="day-label">日</view>
+            <view class="day-label">一</view>
+            <view class="day-label">二</view>
+            <view class="day-label">三</view>
+            <view class="day-label">四</view>
+            <view class="day-label">五</view>
+            <view class="day-label">六</view>
+            <view wx:for="{{ days }}" wx:key="index" class="day {{item.class}} {{ item.active ? 'active-day' : '' }}" data-date="{{ item }}" bindtap="handlePunch">{{ item.date }}</view>
+        </view>
+    </view>
+    <!-- 日历卡片部分 E -->
+</view>
+
+
+
+
+
+

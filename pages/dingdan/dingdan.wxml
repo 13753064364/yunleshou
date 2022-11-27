@@ -1,0 +1,43 @@
+<view class="page" style="background-image: url(https://s1.ax1x.com/2022/07/13/j2qi0H.jpg);">
+	<view class="page__bd">
+		<view class="weui-tab">
+			<view class="weui-navbar">
+				<block wx:for="{{tabs}}" wx:key="*this">
+					<view id="{{index}}" class="weui-navbar-item {{activeIndex == index ? 'weui-navbar-item-on' : ''}}" bindtap="tabClick">
+						<view class="weui-navbar__title">{{item}}</view>
+					</view>
+				</block>
+			</view>
+			<view class="weui-tab__panel">
+				<!-- 第1个页面 -->
+				<view class="weui-tab_content" hidden="{{activeIndex != 0}}">
+
+
+
+<view wx:for="{{dzs}}" wx:key="index" wx:for-index="idx">
+    <!-- <view>手机号：{{item.phone}}，收获地址:{{item.dz}}</view> -->
+    <view>第{{idx+1}}位</view>
+    
+    <view class="td td1" style="width: 750rpx; height: 72rpx; display: block; box-sizing: border-box">手机号：{{item.phone}}</view>
+    <view class="td td2" style="width: 748rpx; height: 70rpx; display: block; box-sizing: border-box">地址：{{item.dz}}</view>
+
+
+</view>
+
+
+
+				</view>
+				<!-- 第2个页面 -->
+				<view class="weui-tab_content" hidden="{{activeIndex != 1}}">
+					
+				</view>
+				<!-- 第3个页面 -->
+				<view class="weui-tab_content" hidden="{{activeIndex != 2}}">
+					
+				</view>
+		
+			</view>
+		</view>
+  </view>
+</view>
+

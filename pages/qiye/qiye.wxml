@@ -1,0 +1,80 @@
+
+<form>
+	<view class="cu-form-group">
+		<view class="title">我要送</view>
+		<checkbox class="round" checked></checkbox>
+	</view>
+  <view class="cu-form-group">
+		<view class="title">云乐收地址</view>
+    <text>“云乐收”新型生物质碳材料科技公司</text>
+	</view>
+  <view class="cu-form-group">
+		<view class="title">云乐收电话</view>
+		<!-- <input placeholder="输入您的联系电话"></input> -->
+    <text>13753064364</text>
+		<view class="cu-capsule radius">
+			<view class="cu-tag bg-blue">
+				+86
+			</view>
+			<view class="cu-tag line-blue">
+				中国大陆
+			</view>
+		</view>
+	</view>
+  <view class="cu-form-group">
+		<!-- <view class="title">云乐收地址</view> -->
+	</view>
+
+  <view class="cu-form-group">
+		<view class="title">上门回收</view>
+		<checkbox class="round" checked></checkbox>
+	</view>
+	<view class="cu-form-group">
+		<view class="title">收货地址</view>
+		<input placeholder="输入您的地址" bindinput="getAddress"></input>
+		<text class="cuIcon-locationfill text-orange"></text>
+	</view>
+
+	<view class="cu-form-group">
+		<view class="title">联系电话：</view>
+		<input placeholder="输入您的联系电话" bindinput="getPhone"></input>
+		<view class="cu-capsule radius">
+			<view class="cu-tag bg-blue">
+				+86
+			</view>
+			<view class="cu-tag line-blue">
+				中国大陆
+			</view>
+		</view>
+	</view>
+	<!-- <view class="cu-form-group">
+		<view class="title">企业地址</view>
+		<input placeholder="输入您的地址" bindtap="getAddress"></input>
+		<text class="cuIcon-locationfill text-orange"></text>
+	</view>
+
+	<view class="cu-form-group">
+		<view class="title">联系电话：</view>
+		<input placeholder="输入您的联系电话" bindtap="getPhone"></input>
+		<view class="cu-capsule radius">
+			<view class="cu-tag bg-blue">
+				+86
+			</view>
+			<view class="cu-tag line-blue">
+				中国大陆
+			</view>
+		</view>
+	</view>
+   -->
+	<view class="cu-form-group">
+		<view class="title">备注</view>
+		<input placeholder="备注"></input>
+	</view>
+</form>
+
+<navigator url="../ys/ys" style="color: red;"> 《用户服务协议》及《隐私政策》</navigator>
+
+<button class="cu-btn bg-grey lg" style="width: 308rpx; height: 80rpx; display: inline-flex; box-sizing: border-box; left: 443rpx; top: 586rpx; position: relative" bindtap="addAddress">预约</button>
+
+<button style="position: relative; left: 0rpx; top: 0rpx" bindtap="addAddress">提交信息</button>
+
